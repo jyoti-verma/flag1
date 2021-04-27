@@ -1,0 +1,4 @@
+sudo: required
+services:
+before-install:
+script: docker build -t flag1/latest
